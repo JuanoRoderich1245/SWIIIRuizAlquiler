@@ -1,0 +1,17 @@
+ContextMap DDDAlquiler{
+    contains GestionDeAlquilerContext
+    contains SeguridadContext
+    contains GestionDeVehiculosContext
+    contains GestionDeClientesContext
+    contains GestionDePagosContext
+
+
+
+
+}
+
+BoundedContext GestionDeAlquilerContext
+BoundedContext SeguridadContext
+BoundedContext GestionDeClientesContext
+BoundedContext GestionDeVehiculosContext
+BoundedContext GestionDePagosContext
